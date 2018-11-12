@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3333F8A7219874D300816A9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3333F8A6219874D300816A9F /* AppDelegate.m */; };
+		3333F8A9219874D600816A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3333F8A8219874D600816A9F /* Assets.xcassets */; };
+		3333F8AC219874D600816A9F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3333F8AA219874D600816A9F /* MainMenu.xib */; };
+		3333F8AF219874D600816A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3333F8AE219874D600816A9F /* main.m */; };
+		335B967021988E6700F6D77B /* airpods-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335B966E21988E6700F6D77B /* airpods-icon@2x.png */; };
+		335B967121988E6700F6D77B /* airpods-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 335B966F21988E6700F6D77B /* airpods-icon.png */; };
+		335B96772199C07000F6D77B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 335B96742199C07000F6D77B /* LICENSE */; };
+		335B96782199C07000F6D77B /* GBLaunchAtLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 335B96752199C07000F6D77B /* GBLaunchAtLogin.m */; };
+		335B96792199C07000F6D77B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 335B96762199C07000F6D77B /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3333F8A2219874D300816A9F /* AirPods Sound Quality Fixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirPods Sound Quality Fixer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3333F8A5219874D300816A9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3333F8A6219874D300816A9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3333F8A8219874D600816A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3333F8AB219874D600816A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3333F8AD219874D600816A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3333F8AE219874D600816A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3333F8BB2198771700816A9F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		335B966E21988E6700F6D77B /* airpods-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airpods-icon@2x.png"; sourceTree = "<group>"; };
+		335B966F21988E6700F6D77B /* airpods-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airpods-icon.png"; sourceTree = "<group>"; };
+		335B96732199C07000F6D77B /* GBLaunchAtLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBLaunchAtLogin.h; sourceTree = "<group>"; };
+		335B96742199C07000F6D77B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		335B96752199C07000F6D77B /* GBLaunchAtLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBLaunchAtLogin.m; sourceTree = "<group>"; };
+		335B96762199C07000F6D77B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		335B967A2199C25A00F6D77B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		335B967B2199C25A00F6D77B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3333F89F219874D300816A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3333F899219874D300816A9F = {
+			isa = PBXGroup;
+			children = (
+				3333F8A4219874D300816A9F /* AirPods Sound Quality Fixer */,
+				3333F8A3219874D300816A9F /* Products */,
+				3333F8BA2198771700816A9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3333F8A3219874D300816A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3333F8A2219874D300816A9F /* AirPods Sound Quality Fixer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3333F8A4219874D300816A9F /* AirPods Sound Quality Fixer */ = {
+			isa = PBXGroup;
+			children = (
+				335B966F21988E6700F6D77B /* airpods-icon.png */,
+				335B966E21988E6700F6D77B /* airpods-icon@2x.png */,
+				3333F8A5219874D300816A9F /* AppDelegate.h */,
+				3333F8A6219874D300816A9F /* AppDelegate.m */,
+				3333F8A8219874D600816A9F /* Assets.xcassets */,
+				3333F8AA219874D600816A9F /* MainMenu.xib */,
+				3333F8AD219874D600816A9F /* Info.plist */,
+				3333F8AE219874D600816A9F /* main.m */,
+				335B967A2199C25A00F6D77B /* LICENSE */,
+				335B967B2199C25A00F6D77B /* README.md */,
+			);
+			path = "AirPods Sound Quality Fixer";
+			sourceTree = "<group>";
+		};
+		3333F8BA2198771700816A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				335B96722199C07000F6D77B /* GBLaunchAtLogin */,
+				3333F8BB2198771700816A9F /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		335B96722199C07000F6D77B /* GBLaunchAtLogin */ = {
+			isa = PBXGroup;
+			children = (
+				335B96732199C07000F6D77B /* GBLaunchAtLogin.h */,
+				335B96742199C07000F6D77B /* LICENSE */,
+				335B96752199C07000F6D77B /* GBLaunchAtLogin.m */,
+				335B96762199C07000F6D77B /* README.md */,
+			);
+			path = GBLaunchAtLogin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3333F8A1219874D300816A9F /* AirPods Sound Quality Fixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3333F8B3219874D600816A9F /* Build configuration list for PBXNativeTarget "AirPods Sound Quality Fixer" */;
+			buildPhases = (
+				3333F89E219874D300816A9F /* Sources */,
+				3333F89F219874D300816A9F /* Frameworks */,
+				3333F8A0219874D300816A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirPods Sound Quality Fixer";
+			productName = "AirPods Audio Quality Fixer";
+			productReference = 3333F8A2219874D300816A9F /* AirPods Sound Quality Fixer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3333F89A219874D300816A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Milan Toth";
+				TargetAttributes = {
+					3333F8A1219874D300816A9F = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3333F89D219874D300816A9F /* Build configuration list for PBXProject "AirPods Sound Quality Fixer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3333F899219874D300816A9F;
+			productRefGroup = 3333F8A3219874D300816A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3333F8A1219874D300816A9F /* AirPods Sound Quality Fixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3333F8A0219874D300816A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335B96792199C07000F6D77B /* README.md in Resources */,
+				335B967021988E6700F6D77B /* airpods-icon@2x.png in Resources */,
+				3333F8A9219874D600816A9F /* Assets.xcassets in Resources */,
+				3333F8AC219874D600816A9F /* MainMenu.xib in Resources */,
+				335B967121988E6700F6D77B /* airpods-icon.png in Resources */,
+				335B96772199C07000F6D77B /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3333F89E219874D300816A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335B96782199C07000F6D77B /* GBLaunchAtLogin.m in Sources */,
+				3333F8AF219874D600816A9F /* main.m in Sources */,
+				3333F8A7219874D300816A9F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3333F8AA219874D600816A9F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3333F8AB219874D600816A9F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3333F8B1219874D600816A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3333F8B2219874D600816A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3333F8B4219874D600816A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KAX983KY52;
+				INFOPLIST_FILE = "AirPods Sound Quality Fixer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milgra.asqf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3333F8B5219874D600816A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KAX983KY52;
+				INFOPLIST_FILE = "AirPods Sound Quality Fixer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milgra.asqf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3333F89D219874D300816A9F /* Build configuration list for PBXProject "AirPods Sound Quality Fixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3333F8B1219874D600816A9F /* Debug */,
+				3333F8B2219874D600816A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3333F8B3219874D600816A9F /* Build configuration list for PBXNativeTarget "AirPods Sound Quality Fixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3333F8B4219874D600816A9F /* Debug */,
+				3333F8B5219874D600816A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3333F89A219874D300816A9F /* Project object */;
+}
