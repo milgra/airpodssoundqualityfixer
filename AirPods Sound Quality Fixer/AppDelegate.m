@@ -1,5 +1,3 @@
-// test : does it work after sleep?
-
 #import "AppDelegate.h"
 #import "GBLaunchAtLogin.h"
 #import <CoreAudio/CoreAudio.h>
