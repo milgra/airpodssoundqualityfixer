@@ -43,7 +43,18 @@ OSStatus callbackFunction(  AudioObjectID inObjectID,
     
     itemsToIDS = [ NSMutableDictionary dictionary ];
     
-    forcedInputID = UINT32_MAX;
+    
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    NSInteger readenId = [prefs integerForKey: @"Device"];
+    
+    if (readenId == 0) {
+        [prefs setInteger:UINT32_MAX forKey: @"Device"];
+        [prefs synchronize];
+    }
+    
+    forcedInputID = readenId;
+    
+    NSLog(@"Loaded device from UserDefaults: %d", forcedInputID);
 
     NSImage* image = [ NSImage imageNamed : @"airpods-icon" ];
     [ image setTemplate : YES ];
@@ -102,6 +113,11 @@ OSStatus callbackFunction(  AudioObjectID inObjectID,
         NSLog( @"switching to new device : %u" , newId );
         
         forcedInputID = newId;
+        
+        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+        [prefs setInteger:newId forKey: @"Device"];
+        [prefs synchronize];
+        NSLog(@"Saved device from UserDefaults: %d", forcedInputID);
 
         UInt32 propertySize = sizeof(UInt32);
         AudioHardwareSetProperty(
