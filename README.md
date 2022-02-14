@@ -7,6 +7,4 @@ If you have more input devices you can select which device you want to force ove
 
 The app runs in the menu bar.
 
-Download the compiled application from my [homepage](http://milgra.com/airpods-sound-quality-fixer.html).
-
----
+Download the compiled application from [releases](https://github.com/milgra/airpodssoundqualityfixer/releases/tag/1.0)
