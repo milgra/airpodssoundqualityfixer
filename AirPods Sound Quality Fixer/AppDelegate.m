@@ -328,6 +328,10 @@ OSStatus callbackFunction(  AudioObjectID inObjectID,
            action : @selector(update)
            keyEquivalent : @"" ];
     
+    [ menu addItemWithTitle : @"Hide"
+           action : @selector(hide)
+           keyEquivalent : @"" ];
+    
     [ menu addItemWithTitle : @"Quit"
            action : @selector(terminate)
            keyEquivalent : @"" ];
@@ -353,6 +357,11 @@ OSStatus callbackFunction(  AudioObjectID inObjectID,
 - ( void ) update
 {
     [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString: @"http://milgra.com/airpods-sound-quality-fixer.html"]];
+}
+
+- ( void ) hide
+{
+    [statusItem setVisible:false];
 }
 
 - (void)toggleStartupItem
