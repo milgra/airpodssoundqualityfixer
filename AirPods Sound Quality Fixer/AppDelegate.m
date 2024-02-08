@@ -97,6 +97,17 @@ OSStatus callbackFunction(  AudioObjectID inObjectID,
     
      [ self listDevices ];
     
+    // auto select item that name contains string "MacBook" and "Microphone"
+    
+    for (NSMenuItem *item in menu.itemArray) {
+        if ([item.title containsString:@"MacBook"]) {
+            if ([item.title containsString:@"Microphone"]) {
+                [self deviceSelected:item];
+            }
+        }
+    }
+    
+    [ statusItem setMenu : menu ];
 }
 
 
